@@ -13,5 +13,5 @@ const connect  = ()=>{
 require("./mainRoute")(app);
 app.listen(9999,()=>{
     connect()
-    console.log("Database connected")
+    console.log("Database connected successfully")
 })
